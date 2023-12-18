@@ -3,29 +3,28 @@ body {
     line-height: 1.6;
     background-color: #f8f8f8;
     color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 0;
 }
 
-nav {
-    background-color: #444;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    z-index: 1000;
+h1 {
+    margin: 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
 }
 
 nav li {
@@ -47,19 +46,11 @@ nav a:hover {
 
 main {
     max-width: 800px;
-    margin: 80px auto 20px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-h2 {
-    color: #333;
 }
 
 footer {
@@ -67,7 +58,4 @@ footer {
     padding: 10px;
     background-color: #444;
     color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }

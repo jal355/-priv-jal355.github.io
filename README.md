@@ -1,3 +1,3 @@
 ### jal355.github.io
-# Welcome!
-Hi Yehuda <3
+# Content
+This repository is for my personal webstie.

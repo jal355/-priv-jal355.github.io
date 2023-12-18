@@ -26,17 +26,17 @@ body {
 }
 
 /* Navigation styles */
-#navbar ul {
+#navbar nav ul {
     list-style: none;
     padding: 0;
 }
 
-#navbar li {
+#navbar nav li {
     display: inline-block;
     margin-right: 20px;
 }
 
-#navbar a {
+#navbar nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -44,7 +44,7 @@ body {
     transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-#navbar a:hover {
+#navbar nav a:hover {
     font-size: 18px;
     color: #ffd700; /* Change the color on hover, e.g., to gold/yellow */
 }
@@ -86,11 +86,11 @@ footer {
 
 /* Responsive styles */
 @media screen and (max-width: 600px) {
-    #navbar ul {
+    #navbar nav {
         text-align: center;
     }
 
-    #navbar li {
+    #navbar nav li {
         display: block;
         margin: 10px 0;
     }

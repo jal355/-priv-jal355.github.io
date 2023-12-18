@@ -1,14 +1,16 @@
-/* Reset some default styles */
-body, h1, h2, p, ul {
+/* Reset box model and remove default margins and paddings */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Basic styling for the body */
+/* Body styles */
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f8f8f8;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f0f0f0;
     color: #333;
 }
 

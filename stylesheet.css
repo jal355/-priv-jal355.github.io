@@ -22,25 +22,21 @@ body {
 /* Logo styles */
 #navbar h1 {
     margin: 0;
-    display: inline-block; /* Keep the logo inline with the navigation */
+    display: inline; /* Ensure the logo is inline */
 }
 
 /* Navigation styles */
-#navbar nav {
-    display: inline-block; /* Make the navigation inline */
-}
-
-#navbar ul {
+#navbar nav ul {
     list-style: none;
     padding: 0;
 }
 
-#navbar li {
+#navbar nav li {
     display: inline-block;
     margin-right: 20px;
 }
 
-#navbar a {
+#navbar nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -48,7 +44,7 @@ body {
     transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-#navbar a:hover {
+#navbar nav a:hover {
     font-size: 18px;
     color: #ffd700; /* Change the color on hover, e.g., to gold/yellow */
 }
@@ -91,11 +87,10 @@ footer {
 /* Responsive styles */
 @media screen and (max-width: 600px) {
     #navbar nav {
-        display: block; /* Switch back to block for small screens */
         text-align: center;
     }
 
-    #navbar li {
+    #navbar nav li {
         display: block;
         margin: 10px 0;
     }

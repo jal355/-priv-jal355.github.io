@@ -36,3 +36,14 @@ body {
   li a:hover {
     background-color: #111;
   }
+
+.image-container {
+    position: relative;
+}
+
+.centered-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -26,8 +26,9 @@ body {
 }
 
 /* Navigation styles */
-#navbar nav ul {
-    list-style: none;
+ul {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 

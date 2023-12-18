@@ -1,18 +1,18 @@
 body {
-    background-color: #170201;
+    background-color: #b3b5ef;
   }
   
   h1 {
-    color: white;
+    color: #494237;
     text-align: center;
   }
   h2 {
-    color: white;
+    color: 494237;
     text-align: center;
   }
   
   p {
-    color: #FFFFFF;
+    color: #494237;
     font-family: arial;
     font-size: 20px;
   }
@@ -31,7 +31,7 @@ body {
   
   li a {
     display: block;
-    color: white;
+    color: 494237;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

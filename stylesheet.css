@@ -7,7 +7,7 @@ body {
     text-align: center;
   }
   h2 {
-    color: 494237;
+    color: #494237;
     text-align: center;
   }
   
@@ -22,7 +22,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #494237;
   }
   
   li {
@@ -31,24 +31,12 @@ body {
   
   li a {
     display: block;
-    color: 494237;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: #000000;
   }
-
-  .image-container {
-    position: relative;
-}
-
-.centered-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
